@@ -1,0 +1,670 @@
+"","Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built"
+"abind","abind","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4-5",NA,"R (>= 1.5.0)","methods, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"AER","AER","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2-9",NA,"R (>= 3.0.0), car (>= 2.0-19), lmtest, sandwich (>= 2.4-0),
+survival (>= 2.37-5), zoo","stats, Formula (>= 0.2-0)",NA,"boot, dynlm, effects, fGarch, forecast, foreign, ineq,
+KernSmooth, lattice, longmemo, MASS, mlogit, nlme, nnet, np,
+plm, pscl, quantreg, rgl, ROCR, rugarch, sampleSelection,
+scatterplot3d, strucchange, systemfit (>= 1.1-20), truncreg,
+tseries, urca, vars",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"amap","amap","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.8-18",NA,"R (>= 3.6.0)",NA,NA,"Biobase",NA,"GPL",NA,NA,NA,NA,"yes","4.0.5"
+"apcluster","apcluster","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.8",NA,"R (>= 3.0.0)","Rcpp (>= 0.11.1), methods, Matrix, stats, graphics, grDevices","Rcpp","Biostrings, kebabs (>= 1.5.4), knitr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"ape","ape","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","5.5",NA,"R (>= 3.2.0)","nlme, lattice, graphics, methods, stats, tools, utils,
+parallel, Rcpp (>= 0.12.0)","Rcpp","gee, expm, igraph, phangorn",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"askpass","askpass","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"assertthat","assertthat","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.1",NA,NA,"tools",NA,"testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.0"
+"backports","backports","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"base","base","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,"methods",NA,"Part of R 4.0.5",NA,NA,NA,NA,NA,"4.0.5"
+"base64enc","base64enc","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1-3",NA,"R (>= 2.9.0)",NA,NA,NA,"png","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.0"
+"beachmat","beachmat","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.6.4",NA,NA,"methods, DelayedArray (>= 0.15.14), BiocGenerics, Matrix",NA,"testthat, BiocStyle, knitr, rmarkdown, rcmdcheck,
+BiocParallel",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"beeswarm","beeswarm","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.0",NA,NA,"stats, graphics, grDevices, utils",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"BH","BH","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.75.0-0",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.0.5"
+"Biobase","Biobase","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.50.0",NA,"R (>= 2.10), BiocGenerics (>= 0.27.1), utils","methods",NA,"tools, tkWidgets, ALL, RUnit, golubEsets",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"BiocGenerics","BiocGenerics","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.36.1",NA,"R (>= 4.0.0), methods, utils, graphics, stats, parallel","methods, utils, graphics, stats, parallel",NA,"Biobase, S4Vectors, IRanges, GenomicRanges, DelayedArray,
+Biostrings, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2,
+flowClust, MSnbase, annotate, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"BiocManager","BiocManager","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.30.15",NA,NA,"utils",NA,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"BiocNeighbors","BiocNeighbors","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8.2",NA,NA,"Rcpp, S4Vectors, BiocParallel, stats, methods, Matrix","Rcpp, RcppHNSW","testthat, BiocStyle, knitr, rmarkdown, FNN, RcppAnnoy,
+RcppHNSW",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"BiocParallel","BiocParallel","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.24.1",NA,"methods","stats, utils, futile.logger, parallel, snow","BH","BiocGenerics, tools, foreach, BatchJobs, BBmisc, doParallel,
+Rmpi, GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, codetools, RUnit,
+BiocStyle, knitr, batchtools, data.table",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"BiocSingular","BiocSingular","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.0",NA,NA,"BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+BiocParallel, irlba, rsvd, Rcpp, beachmat","Rcpp, beachmat","testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"BiocVersion","BiocVersion","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.12.0",NA,"R (>= 4.0.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"bitops","bitops","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0-7",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"blob","blob","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.0"
+"bluster","bluster","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.0",NA,NA,"stats, methods, utils, Matrix, Rcpp, igraph, S4Vectors,
+BiocParallel, BiocNeighbors","Rcpp","knitr, rmarkdown, testthat, BiocStyle, dynamicTreeCut,
+scRNAseq, scuttle, scater, scran, pheatmap, viridis",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"boot","boot","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3-28","recommended","R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,"Unlimited",NA,NA,NA,NA,"no","4.0.3"
+"brio","brio","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.2",NA,NA,NA,NA,"testthat (>= 2.1.0), covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"broom","broom","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.7.6",NA,"R (>= 3.1)","backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
+glue, methods, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr
+(>= 1.0.0)",NA,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot,
+btergm, car, caret, cluster, cmprsk, coda, covr, drc, e1071,
+emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.8.1), gam (>=
+1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc,
+irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps,
+lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps,
+maptools, margins, MASS, Matrix, mclust, mediation, metafor,
+mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp,
+network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych,
+quantreg, Rchoice, rgeos, rmarkdown, robust, robustbase,
+rsample, sandwich, sp, spdep, spatialreg, speedglm, spelling,
+survey, survival, systemfit, testthat (>= 2.1.0), tseries,
+vars, zoo",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"bslib","bslib","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.5",NA,"R (>= 2.10)","grDevices, htmltools (>= 0.5.1), jsonlite, sass (>= 0.4.0),
+digest (>= 0.6.25), jquerylib (>= 0.1.3), rlang, magrittr",NA,"shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+testthat, withr, rappdirs, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"cachem","cachem","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.5",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"callr","callr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.7.0",NA,NA,"processx (>= 3.5.0), R6, utils",NA,"cli, covr, ps, rprojroot, spelling, testthat, withr (>=
+2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"car","car","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.0-10",NA,"R (>= 3.5.0), carData (>= 3.0-0)","abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+grDevices, utils, stats, graphics, maptools, rio, lme4, nlme",NA,"alr4, boot, coxme, knitr, leaps, lmtest, Matrix,
+MatrixModels, rgl (>= 0.93.960), sandwich, SparseM, survival,
+survey",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"carData","carData","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.0-4",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"caret","caret","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","6.0-88",NA,"R (>= 3.2.0), lattice (>= 0.20), ggplot2","foreach, methods, plyr, ModelMetrics (>= 1.2.2.2), nlme,
+reshape2, stats, stats4, utils, grDevices, recipes (>= 0.1.10),
+withr (>= 2.0.0), pROC,",NA,"BradleyTerry2, e1071, earth (>= 2.2-3), fastICA, gam (>=
+1.15), ipred, kernlab, knitr, klaR, MASS, ellipse, Matrix, mda,
+mgcv, mlbench, MLmetrics, nnet, party (>= 0.9-99992), pls,
+proxy, randomForest, RANN, rmarkdown, spls, subselect, pamr,
+superpc, Cubist, testthat (>= 0.9.1), rpart, dplyr, covr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"caTools","caTools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.18.2",NA,"R (>= 3.6.0)","bitops",NA,"MASS, rpart",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"cellranger","cellranger","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,"R (>= 3.0.0)","rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"checkmate","checkmate","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.0",NA,"R (>= 3.0.0)","backports (>= 1.1.0), utils",NA,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+0.11.0), tinytest (>= 1.1.0), tibble",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"class","class","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","7.3-19","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"cli","cli","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.5.0",NA,"R (>= 2.10)","glue, utils",NA,"callr, covr, grDevices, htmlwidgets, knitr, methods, mockery,
+ps (>= 1.3.4.9000), rmarkdown, rstudioapi, prettycode (>=
+1.1.0), testthat, tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"clipr","clipr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.7.1",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.2"
+"cluster","cluster","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1.1","recommended","R (>= 3.4.0)","graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"codetools","codetools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2-18","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"colorspace","colorspace","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0-1",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"commonmark","commonmark","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.7",NA,NA,NA,NA,"curl, testthat, xml2",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"compiler","compiler","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,NA,NA,"Part of R 4.0.5",NA,NA,NA,NA,NA,"4.0.5"
+"conquer","conquer","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.2",NA,"R (>= 3.5.0)","Rcpp (>= 1.0.3), Matrix, matrixStats, stats","Rcpp, RcppArmadillo (>= 0.9.850.1.0)",NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"cowplot","cowplot","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,"R (>= 3.5.0)","ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales",NA,"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"cpp11","cpp11","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.7",NA,NA,NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, testthat,
+tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"crayon","crayon","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.1",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"crosstalk","crosstalk","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,NA,"htmltools (>= 0.3.6), jsonlite, lazyeval, R6",NA,"shiny, ggplot2, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"crul","crul","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,NA,"curl (>= 3.3), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+(>= 0.2.0), jsonlite, mime",NA,"testthat, roxygen2 (>= 7.1.1), fauxpas (>= 0.1.0), webmockr
+(>= 0.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"curl","curl","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.3.1",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
+magrittr, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"data.table","data.table","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.14.0",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"datasets","datasets","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,NA,NA,"Part of R 4.0.5",NA,NA,NA,NA,NA,"4.0.5"
+"DBI","DBI","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, dbplyr, dplyr, glue, hms, knitr, magrittr,
+rmarkdown, rprojroot, RMariaDB, RSQLite (>= 1.1-2), testthat,
+xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"dbplyr","dbplyr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1.1",NA,"R (>= 3.1)","assertthat (>= 0.2.0), blob (>= 1.2.0), DBI (>= 1.0.0), dplyr
+(>= 1.0.4), ellipsis, glue (>= 1.2.0), lifecycle (>= 1.0.0),
+magrittr, methods, purrr (>= 0.2.5), R6 (>= 2.2.2), rlang (>=
+0.2.0), tibble (>= 1.4.2), tidyselect (>= 0.2.4), utils, vctrs,
+withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.1.0), testthat (>= 3.0.2), tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"DelayedArray","DelayedArray","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.16.3",NA,"R (>= 3.4), methods, stats4, Matrix, BiocGenerics (>= 0.31.5),
+MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2), IRanges (>=
+2.17.3)","stats","S4Vectors","BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+SummarizedExperiment, airway, pryr, DelayedMatrixStats, knitr,
+BiocStyle, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"DelayedMatrixStats","DelayedMatrixStats","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.12.3",NA,"MatrixGenerics, DelayedArray (>= 0.15.3)","methods, matrixStats (>= 0.56.0), sparseMatrixStats, Matrix,
+S4Vectors (>= 0.17.5), IRanges, HDF5Array (>= 1.17.2),
+BiocParallel",NA,"testthat, knitr, rmarkdown, covr, BiocStyle, microbenchmark,
+profmem",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"deldir","deldir","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2-10",NA,"R (>= 3.5.0)","graphics, grDevices",NA,"polyclip",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"DEoptimR","DEoptimR","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0-9",NA,NA,"stats",NA,NA,"robustbase","GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"desc","desc","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3.0",NA,"R (>= 3.1.0)","utils, R6, crayon, rprojroot",NA,"covr, testthat, whoami, withr, spelling, gh",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"diffobj","diffobj","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.4",NA,"R (>= 3.1.0)","crayon (>= 1.3.2), tools, methods, utils, stats",NA,"knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"digest","digest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.6.27",NA,"R (>= 3.3.0)","utils",NA,"tinytest, knitr, rmarkdown, minidown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"diptest","diptest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.76-0",NA,NA,"graphics, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"dplyr","dplyr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.6",NA,"R (>= 3.3.0)","ellipsis, generics, glue (>= 1.3.2), lifecycle (>= 1.0.0),
+magrittr (>= 1.5), methods, R6, rlang (>= 0.4.10), tibble (>=
+2.1.3), tidyselect (>= 1.1.0), utils, vctrs (>= 0.3.5), pillar
+(>= 1.5.1)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), knitr,
+Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown,
+RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.0.2), tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"dqrng","dqrng","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,"R (>= 3.1.0)","Rcpp (>= 0.12.16)","Rcpp, BH (>= 1.64.0-1), sitmo (>= 2.0.0)","testthat, knitr, rmarkdown",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"DropletUtils","DropletUtils","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.10.3",NA,"SingleCellExperiment","utils, stats, methods, Matrix, Rcpp, BiocGenerics, S4Vectors,
+SummarizedExperiment, BiocParallel, DelayedArray, HDF5Array,
+rhdf5, edgeR, R.utils, dqrng, beachmat, scuttle","Rcpp, beachmat, Rhdf5lib, BH, dqrng, scuttle","testthat, knitr, BiocStyle, rmarkdown, jsonlite,
+DropletTestFiles",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"dtplyr","dtplyr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,"R (>= 3.3)","crayon, data.table (>= 1.12.4), dplyr (>= 1.0.3), ellipsis,
+glue, lifecycle, rlang, tibble, tidyselect, vctrs",NA,"bench, covr, knitr, rmarkdown, testthat (>= 3.0.0), tidyr (>=
+1.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"edgeR","edgeR","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.32.1",NA,"R (>= 3.6.0), limma (>= 3.41.5)","methods, graphics, stats, utils, locfit, Rcpp","Rcpp","jsonlite, readr, rhdf5, splines, Biobase, AnnotationDbi,
+SummarizedExperiment, org.Hs.eg.db",NA,"GPL (>=2)",NA,NA,NA,NA,"yes","4.0.5"
+"ellipse","ellipse","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.2",NA,"R (>= 2.0.0),graphics,stats",NA,NA,"MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"ellipsis","ellipsis","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.2",NA,"R (>= 3.2)","rlang (>= 0.3.0)",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"evaluate","evaluate","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.14",NA,"R (>= 3.0.2)","methods",NA,"testthat, lattice, ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"fansi","fansi","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.2",NA,"R (>= 3.1.0)",NA,NA,"unitizer, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"farver","farver","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1.0",NA,NA,NA,NA,"testthat (>= 2.1.0), covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"fastcluster","fastcluster","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.3",NA,"R (>= 3.0.0)",NA,NA,NA,"stats, flashClust","FreeBSD | GPL-2 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"fastmap","fastmap","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"feather","feather","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.5",NA,NA,"Rcpp, tibble (>= 2.0.0), hms","Rcpp","testthat",NA,"Apache License 2.0",NA,NA,NA,NA,"yes","4.0.5"
+"fitdistrplus","fitdistrplus","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1-3",NA,"R (>= 3.2.0), MASS, grDevices, survival, methods","stats",NA,"actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
+GeneralizedHyperbolic, rmarkdown, Hmisc",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"flexmix","flexmix","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.3-17",NA,"R (>= 2.15.0), lattice","graphics, grid, grDevices, methods, modeltools (>= 0.2-16),
+nnet, stats, stats4, utils",NA,"actuar, codetools, diptest, Ecdat, ellipse, gclus, glmnet,
+lme4 (>= 1.1), MASS, mgcv (>= 1.8-0), mlbench, multcomp,
+mvtnorm, SuppDists, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"FNN","FNN","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.3",NA,"R (>= 3.0.0)",NA,NA,"chemometrics, mvtnorm",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"forcats","forcats","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.1",NA,"R (>= 3.2)","ellipsis, magrittr, rlang, tibble",NA,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"foreach","foreach","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.5.1",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"foreign","foreign","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.8-81","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"formatR","formatR","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.9",NA,"R (>= 3.2.3)",NA,NA,"codetools, shiny, testit, rmarkdown, knitr",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"Formula","Formula","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2-4",NA,"R (>= 2.0.0), stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"fpc","fpc","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.2-9",NA,"R (>= 2.0)","MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+robustbase, kernlab, grDevices, graphics, methods, stats,
+utils, parallel",NA,"tclust, pdfCluster, mvtnorm",NA,"GPL",NA,NA,NA,NA,"no","4.0.5"
+"fs","fs","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.5.0",NA,"R (>= 3.1)","methods",NA,"testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,
+rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.2"
+"futile.logger","futile.logger","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.3",NA,"R (>= 3.0.0)","utils, lambda.r (>= 1.1.0), futile.options",NA,"testthat, jsonlite",NA,"LGPL-3",NA,NA,NA,NA,"no","4.0.5"
+"futile.options","futile.options","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.1",NA,"R (>= 2.8.0)",NA,NA,NA,NA,"LGPL-3",NA,NA,NA,NA,"no","4.0.5"
+"future","future","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.21.0",NA,NA,"digest, globals (>= 0.13.1), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.21.0), tools, utils",NA,"RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"future.apply","future.apply","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.7.0",NA,"R (>= 3.2.0), future (>= 1.17.0)","globals (>= 0.12.5), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"gargle","gargle","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,"R (>= 3.3)","cli (>= 2.3.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
+1.4.0), jsonlite, rappdirs, rlang (>= 0.4.9), rstudioapi,
+stats, withr",NA,"covr, httpuv, knitr, mockr, rmarkdown, sodium, spelling,
+testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"gdata","gdata","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.18.0",NA,"R (>= 2.3.0)","gtools, stats, methods, utils",NA,"RUnit",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"generics","generics","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.0",NA,"R (>= 3.1)","methods",NA,"covr, pkgload, testthat, tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"GenomeInfoDb","GenomeInfoDb","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.26.7",NA,"R (>= 3.1), methods, BiocGenerics (>= 0.13.8), S4Vectors (>=
+0.25.12), IRanges (>= 2.13.12)","stats, stats4, utils, RCurl, GenomeInfoDbData",NA,"GenomicRanges, Rsamtools, GenomicAlignments, GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene, BSgenome,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"GenomeInfoDbData","GenomeInfoDbData","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.4",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"GenomicRanges","GenomicRanges","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.42.0",NA,"R (>= 2.10), methods, stats4, BiocGenerics (>= 0.25.3),
+S4Vectors (>= 0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.15.2)","utils, stats, XVector (>= 0.29.2)","S4Vectors, IRanges","Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGG.db, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart22,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"ggbeeswarm","ggbeeswarm","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.6.0",NA,"R (>= 3.0.0), ggplot2 (>= 2.0)","beeswarm, vipor",NA,"gridExtra",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"ggdendro","ggdendro","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.22",NA,NA,"MASS, ggplot2(>= 0.9.2)",NA,"rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"ggplot2","ggplot2","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.3.3",NA,"R (>= 3.2)","digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+MASS, mgcv, rlang (>= 0.3.0), scales (>= 0.5.0), stats, tibble,
+withr (>= 2.0.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>= 0.7-3),
+svglite (>= 1.2.0.9001), testthat (>= 2.1.0), vdiffr (>= 0.3.0)","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ggrepel","ggrepel","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9.1",NA,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0)","Rcpp","knitr, rmarkdown, testthat, gridExtra, devtools, prettydoc,
+ggbeeswarm, dplyr, magrittr, readr, stringr",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"ggridges","ggridges","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.3",NA,"R (>= 3.2)","ggplot2 (>= 3.0.0), grid (>= 3.0.0), plyr (>= 1.8.0), scales
+(>= 0.4.1), withr (>= 2.1.1)",NA,"covr, dplyr, patchwork, ggplot2movies, forcats, knitr,
+rmarkdown, testthat, vdiffr",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"gistr","gistr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9.0",NA,NA,"jsonlite, crul, httr, magrittr, assertthat, knitr, rmarkdown,
+dplyr",NA,"git2r, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"glmnet","glmnet","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.1-1",NA,"R (>= 3.6.0), Matrix (>= 1.0-6)","methods, utils, foreach, shape, survival",NA,"knitr, lars, testthat, xfun, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"globals","globals","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.14.0",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"glue","glue","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.2",NA,"R (>= 3.2)","methods",NA,"testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+ggplot2, dplyr, withr, vctrs (>= 0.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"gmodels","gmodels","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.18.1",NA,"R (>= 1.9.0)","MASS, gdata",NA,"gplots, gtools, Matrix, nlme, lme4 (>= 0.999999-0)",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"goftest","goftest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2-2",NA,"R (>= 3.3)","stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"googledrive","googledrive","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.1",NA,"R (>= 3.2)","curl (>= 2.8.1), gargle (>= 0.3.1), glue (>= 1.2.0), httr,
+jsonlite, magrittr, purrr (>= 0.2.3), rlang (>= 0.3.1), tibble
+(>= 2.0.0), utils, uuid",NA,"covr, dplyr, knitr, rmarkdown, roxygen2, sodium, spelling,
+testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"googlesheets4","googlesheets4","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,"R (>= 3.2)","cellranger, curl, gargle (>= 1.0.0), glue (>= 1.3.0),
+googledrive (>= 1.0.0), httr, ids, lifecycle, magrittr,
+methods, purrr, rematch2, rlang, tibble (>= 2.1.1), utils,
+vctrs (>= 0.2.3)",NA,"covr, readr, rmarkdown, sodium, spelling, testthat (>=
+2.1.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"gower","gower","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.2",NA,NA,NA,NA,"tinytest (>= 0.9.3),",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.1"
+"gplots","gplots","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.1.1",NA,"R (>= 3.0)","gtools, stats, caTools, KernSmooth",NA,"grid, MASS, knitr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"gprofiler2","gprofiler2","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.0",NA,"R (>= 3.5)","jsonlite, RCurl, ggplot2, plotly, tidyr (>= 1.0.0), crosstalk,
+grDevices, gridExtra, grid, viridisLite, dplyr",NA,"knitr, rmarkdown, prettydoc",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"graphics","graphics","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"grDevices",NA,NA,NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"grDevices","grDevices","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,"KernSmooth",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"grid","grid","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"grDevices, utils",NA,"lattice",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"gridExtra","gridExtra","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.3",NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"gtable","gtable","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,"R (>= 3.0)","grid",NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.0"
+"gtools","gtools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.8.2",NA,"methods, stats, utils",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.5"
+"haven","haven","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.4.1",NA,"R (>= 3.2)","forcats (>= 0.2.0), hms, methods, readr (>= 0.1.0), rlang (>=
+0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)","cpp11","cli, covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
+testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"HDF5Array","HDF5Array","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.18.1",NA,"R (>= 3.4), methods, DelayedArray (>= 0.15.16), rhdf5 (>=
+2.31.6)","utils, stats, tools, Matrix, BiocGenerics (>= 0.31.5),
+S4Vectors, IRanges","S4Vectors (>= 0.27.13), Rhdf5lib","BiocParallel, GenomicRanges, SummarizedExperiment (>=
+1.15.1), h5vcData, ExperimentHub, TENxBrainData,
+GenomicFeatures, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"hexbin","hexbin","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.28.2",NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma, knitr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"highr","highr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9",NA,"R (>= 3.2.3)","xfun (>= 0.18)",NA,"knitr, markdown, testit",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"hms","hms","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.0",NA,NA,"ellipsis (>= 0.3.2), lifecycle, methods, pkgconfig, rlang,
+vctrs (>= 0.3.8)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"htmltools","htmltools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.1.1",NA,"R (>= 2.14.1)","utils, digest, grDevices, base64enc, rlang",NA,"markdown, testthat, withr, Cairo, ragg, shiny","knitr","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"htmlwidgets","htmlwidgets","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.5.3",NA,NA,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",NA,"knitr (>= 1.8), rmarkdown, testthat","shiny (>= 1.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"httpcode","httpcode","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"httpuv","httpuv","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.1",NA,"R (>= 2.15.1)","Rcpp (>= 0.11.0), utils, R6, promises, later (>= 0.8.0)","Rcpp, later","testthat, callr, curl, websocket",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"httr","httr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.2",NA,"R (>= 3.2)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"ica","ica","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0-2",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"ids","ids","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.1",NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"igraph","igraph","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.6",NA,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+stats, utils",NA,"ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk,
+testthat, withr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"ipred","ipred","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9-11",NA,"R (>= 2.10)","rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",NA,"mvtnorm, mlbench, TH.data, randomForest, party",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"IRanges","IRanges","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.24.1",NA,"R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.36.0),
+S4Vectors (>= 0.27.12)","stats4","S4Vectors","XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"IRdisplay","IRdisplay","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0",NA,"R (>= 3.0.1)","methods,
+repr",NA,"testthat,
+withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,NA,"4.0.3"
+"IRkernel","IRkernel","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2",NA,"R (>= 3.2.0)","repr (>= 0.4.99), methods, evaluate (>= 0.10), IRdisplay (>=
+0.3.0.9999), pbdZMQ (>= 0.2-1), crayon, jsonlite (>= 0.9.6),
+uuid, digest",NA,"testthat, roxygen2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"irlba","irlba","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.3.3",NA,"Matrix","stats, methods","Matrix",NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"isoband","isoband","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.4",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"iterators","iterators","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.13",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"jquerylib","jquerylib","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.4",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"jsonlite","jsonlite","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.7.2",NA,"methods",NA,NA,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"kernlab","kernlab","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9-29",NA,"R (>= 2.10)","methods, stats, grDevices, graphics",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.5"
+"KernSmooth","KernSmooth","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.23-18","recommended","R (>= 2.5.0), stats",NA,NA,"MASS",NA,"Unlimited",NA,NA,NA,NA,"yes","4.0.3"
+"knitr","knitr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.33",NA,"R (>= 3.2.3)","evaluate (>= 0.10), highr, methods, markdown, stringr (>=
+0.6), yaml (>= 2.1.19), xfun (>= 0.21), tools",NA,"formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,
+png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),
+showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0)",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"labeling","labeling","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.2",NA,NA,"stats, graphics",NA,NA,NA,"MIT + file LICENSE | Unlimited",NA,NA,NA,NA,"no","4.0.3"
+"lambda.r","lambda.r","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.4",NA,"R (>= 3.0.0)","formatR",NA,"testit",NA,"LGPL-3",NA,NA,NA,NA,"no","4.0.5"
+"later","later","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.0",NA,NA,"Rcpp (>= 0.12.9), rlang","Rcpp","knitr, rmarkdown, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"lattice","lattice","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.20-44","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"lava","lava","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.9",NA,"R (>= 3.0)","grDevices, graphics, methods, numDeriv, stats, survival,
+SQUAREM, utils",NA,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+foreach, geepack, gof (>= 0.9), graph, knitr, bookdown,
+rmarkdown, igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2,
+lme4, magrittr, mets (>= 1.1), nlme, optimx, polycor, quantreg,
+rgl, R.rsp (>= 0.40), testthat (>= 0.11), visNetwork, zoo",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"lazyeval","lazyeval","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.2",NA,"R (>= 3.1.0)",NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.0"
+"leiden","leiden","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.7",NA,NA,"methods, reticulate, Matrix, igraph",NA,"bipartite, covr, data.table, devtools, graphsim, knitr,
+multiplex, multinet, markdown, network, RColorBrewer,
+rmarkdown, spelling, testthat, tibble",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"lifecycle","lifecycle","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.0",NA,"R (>= 3.3)","glue, rlang (>= 0.4.10)",NA,"covr, crayon, knitr, rmarkdown, testthat (>= 3.0.1), tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"limma","limma","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.46.0",NA,"R (>= 3.6.0)","grDevices, graphics, stats, utils, methods",NA,"affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines,
+statmod (>= 1.2.2), vsn",NA,"GPL (>=2)",NA,NA,NA,NA,"yes","4.0.5"
+"Linnorm","Linnorm","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.14.0",NA,"R(>= 3.4)","Rcpp (>= 0.12.2), RcppArmadillo (>= 0.8.100.1.0), fpc, vegan,
+mclust, apcluster, ggplot2, ellipse, limma, utils, statmod,
+MASS, igraph, grDevices, graphics, fastcluster, ggdendro, zoo,
+stats, amap, Rtsne, gmodels","Rcpp, RcppArmadillo","BiocStyle, knitr, rmarkdown, gplots, RColorBrewer, moments,
+testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"listenv","listenv","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.8.0",NA,"R (>= 3.1.2)",NA,NA,"R.utils, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"lme4","lme4","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1-27",NA,"R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), RcppEigen","knitr, rmarkdown, PKPDmodels, MEMSS, testthat (>= 0.8.1),
+ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"lmtest","lmtest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9-38",NA,"R (>= 3.0.0), stats, zoo","graphics",NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"locfit","locfit","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.5-9.4",NA,"R (>= 3.5.0)","lattice",NA,"interp, gam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"lubridate","lubridate","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.7.10",NA,"methods, R (>= 3.2)","generics, Rcpp (>= 0.12.13)","Rcpp","covr, knitr, testthat (>= 2.1.0), vctrs (>= 0.3.0), rmarkdown","chron, timeDate, tis, zoo","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"magrittr","magrittr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.1",NA,NA,NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"maps","maps","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.3.0",NA,"R (>= 3.0.0)","graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, maptools,
+rnaturalearth",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.0"
+"maptools","maptools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1-1",NA,"R (>= 2.10), sp (>= 1.0-11)","foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices",NA,"rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
+maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
+(>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)","gpclib","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"markdown","markdown","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1",NA,"R (>= 2.11.1)","utils, xfun, mime (>= 0.3)",NA,"knitr, RCurl",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"MASS","MASS","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","7.3-54","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"Matrix","Matrix","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3-2","recommended","R (>= 3.6.0)","methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
+spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.0.3"
+"MatrixGenerics","MatrixGenerics","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,"matrixStats (> 0.57.0)","methods",NA,"sparseMatrixStats, DelayedMatrixStats, SummarizedExperiment,
+testthat (>= 2.1.0)",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"MatrixModels","MatrixModels","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5-0",NA,"R (>= 3.0.1)","stats, methods, Matrix (>= 1.1-5)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"matrixStats","matrixStats","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.58.0",NA,"R (>= 2.12.0)",NA,NA,"base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"mclust","mclust","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","5.4.7",NA,"R (>= 3.0)","stats, utils, graphics, grDevices",NA,"knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"methods","methods","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"utils, stats",NA,"codetools",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"mgcv","mgcv","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8-34","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"mime","mime","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.10",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.0.3"
+"miniUI","miniUI","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"minqa","minqa","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.4",NA,NA,"Rcpp (>= 0.9.10)","Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.5"
+"ModelMetrics","ModelMetrics","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.2.2",NA,"R (>= 3.2.2)","Rcpp, data.table","Rcpp","testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.0"
+"modelr","modelr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.8",NA,"R (>= 3.2)","broom, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.0"
+"modeltools","modeltools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2-23",NA,"stats, stats4","methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"munsell","munsell","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"nlme","nlme","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.1-152","recommended","R (>= 3.4.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS",NA,"GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.0.3"
+"nloptr","nloptr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.2.2",NA,NA,NA,NA,"testthat (>= 0.8.1), knitr, rmarkdown, inline (>= 0.3.14)",NA,"LGPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"nnet","nnet","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","7.3-16","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"numDeriv","numDeriv","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.2"
+"openssl","openssl","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.4",NA,NA,"askpass",NA,"testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite,
+jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"openxlsx","openxlsx","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.2.3",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, utils, zip, stringi","Rcpp","knitr, testthat, roxygen2, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"parallel","parallel","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"tools, compiler",NA,"methods","snow, nws, Rmpi","Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"parallelly","parallelly","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.25.0",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"patchwork","patchwork","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"pbapply","pbapply","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4-3",NA,"R (>= 3.2.0)","parallel",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"pbdZMQ","pbdZMQ","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3-5",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"pbkrtest","pbkrtest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.1",NA,"R (>= 3.5.0), lme4 (>= 1.1.10)","broom, dplyr, magrittr, MASS, Matrix (>= 1.2.3), methods,
+numDeriv, parallel, knitr",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"permute","permute","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.9-5",NA,"R (>= 2.14.0)","stats",NA,"vegan (>= 2.0-0), testthat (>= 0.5), parallel",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"pillar","pillar","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.1",NA,NA,"cli, crayon (>= 1.3.4), ellipsis (>= 0.3.2), fansi, lifecycle,
+rlang (>= 0.3.0), utf8 (>= 1.1.0), utils, vctrs (>= 0.3.8)",NA,"bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nycflights13, palmerpenguins, rmarkdown,
+scales, stringi, survival, testthat (>= 3.0.2), tibble, units,
+withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"pkgconfig","pkgconfig","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.3",NA,NA,"utils",NA,"covr, testthat, disposables (>= 1.0.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"pkgload","pkgload","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,NA,"cli, crayon, desc, methods, rlang, rprojroot, rstudioapi,
+utils, withr",NA,"bitops, covr, pkgbuild, Rcpp, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"plotly","plotly","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.9.3",NA,"R (>= 3.2.0), ggplot2 (>= 3.0.0)","tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr,
+digest, viridisLite, base64enc, htmltools (>= 0.3.6),
+htmlwidgets (>= 1.5.2.9001), tidyr, RColorBrewer, dplyr, vctrs,
+tibble, lazyeval (>= 0.2.0), rlang, crosstalk, purrr,
+data.table, promises",NA,"MASS, maps, hexbin, ggthemes, GGally, testthat, knitr,
+devtools, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl,
+rmarkdown, vdiffr, Cairo, broom, webshot, listviewer,
+dendextend, sf, maptools, rgeos, png, IRdisplay, processx,
+plotlyGeoAssets, forcats, palmerpenguins",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"plyr","plyr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8.6",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"png","png","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1-7",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"polyclip","polyclip","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.10-0",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.0.5"
+"prabclus","prabclus","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.3-2",NA,"R (>= 2.10), MASS, mclust",NA,NA,"spdep, spatialreg, bootstrap, maptools, foreign, mvtnorm",NA,"GPL",NA,NA,NA,NA,"no","4.0.5"
+"praise","praise","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"prettyunits","prettyunits","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"pROC","pROC","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.17.0.1",NA,"R (>= 2.14)","methods, plyr, Rcpp (>= 0.11.1)","Rcpp","microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"processx","processx","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.5.2",NA,NA,"ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.2.0), cli, codetools, covr, curl, debugme,
+parallel, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"prodlim","prodlim","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2019.11.13",NA,"R (>= 2.9.0)","Rcpp (>= 0.11.5), stats, grDevices, graphics, survival,
+KernSmooth, lava","Rcpp",NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.0"
+"progress","progress","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.2",NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"promises","promises","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.0.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
+knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"pryr","pryr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.4",NA,"R (>= 3.1.0)","stringr, codetools, methods, Rcpp (>= 0.11.0)","Rcpp","testthat (>= 0.8.0)",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.0"
+"ps","ps","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.0",NA,"R (>= 3.1)","utils",NA,"callr, covr, curl, pingr, processx (>= 3.1.0), R6, rlang,
+testthat, tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"purrr","purrr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.4",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat,
+tibble, tidyselect",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"quantmod","quantmod","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.18",NA,"R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods","curl",NA,"DBI,RMySQL,RSQLite,timeSeries,xml2,downloader,jsonlite(>=
+1.1)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"quantreg","quantreg","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","5.85",NA,"R (>= 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels, conquer",NA,"tripack, akima, MASS, survival, rgl, logspline, nor1mix,
+Formula, zoo, R.rsp",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"R.methodsS3","R.methodsS3","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8.1",NA,"R (>= 2.13.0)","utils",NA,"codetools",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"R.oo","R.oo","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.24.0",NA,"R (>= 2.13.0), R.methodsS3 (>= 1.8.0)","methods, utils",NA,"tools",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"R.utils","R.utils","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.10.1",NA,"R (>= 2.14.0), R.oo (>= 1.23.0)","methods, utils, tools, R.methodsS3 (>= 1.8.0)",NA,"digest (>= 0.6.10)",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.5"
+"R6","R6","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.5.0",NA,"R (>= 3.0)",NA,NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"randomForest","randomForest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.6-14",NA,"R (>= 3.2.2), stats",NA,NA,"RColorBrewer, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RANN","RANN","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.6.1",NA,NA,NA,NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.5"
+"rappdirs","rappdirs","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"rbokeh","rbokeh","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.1",NA,NA,"htmlwidgets (>= 0.5), maps, methods, jsonlite, digest, hexbin,
+lazyeval, pryr, magrittr, ggplot2, scales, gistr",NA,"testthat, data.table, lattice, lintr, roxygen2 (>= 5.0.0),
+latticeExtra, knitr, rmarkdown","shiny (>= 0.12)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"RColorBrewer","RColorBrewer","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1-2",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.0.0"
+"Rcpp","Rcpp","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.6",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RcppAnnoy","RcppAnnoy","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.0.18",NA,"R (>= 3.1)","methods, Rcpp","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"RcppArmadillo","RcppArmadillo","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.10.4.0.0",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"RcppEigen","RcppEigen","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.3.9.1",NA,NA,"Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"RcppHNSW","RcppHNSW","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,NA,"methods, Rcpp (>= 0.11.3)","Rcpp","testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"RcppProgress","RcppProgress","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.2",NA,NA,NA,NA,"RcppArmadillo, devtools, roxygen2, testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.5"
+"RCurl","RCurl","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.98-1.3",NA,"R (>= 3.4.0), methods","bitops",NA,"XML",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"rdd","rdd","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.57",NA,"R (>= 2.15.0), sandwich, lmtest, AER, Formula",NA,NA,NA,NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.0.5"
+"readr","readr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.0",NA,"R (>= 3.1)","cli, clipr, crayon, hms (>= 0.4.1), methods, rlang, R6,
+tibble, utils, lifecycle","BH, cpp11","covr, curl, dplyr, knitr, rmarkdown, spelling, stringi,
+testthat, xml2",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"readxl","readxl","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3.1",NA,NA,"cellranger, Rcpp (>= 0.12.18), tibble (>= 1.3.1), utils","progress, Rcpp","covr, knitr, rmarkdown, rprojroot (>= 1.1), testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.0"
+"recipes","recipes","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.16",NA,"R (>= 3.1), dplyr","ellipsis, generics (>= 0.1.0), glue, gower, ipred, lifecycle,
+lubridate, magrittr, Matrix, purrr (>= 0.2.3), rlang (>=
+0.4.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.1.0),
+timeDate, utils, withr",NA,"covr, ddalpha, dimRed (>= 0.2.2), fastICA, ggplot2, igraph,
+kernlab, knitr, modeldata, RANN, RcppRoll, rmarkdown, rpart,
+rsample, RSpectra, testthat (>= 2.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rematch","rematch","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.1",NA,NA,NA,NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"rematch2","rematch2","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1.2",NA,NA,"tibble",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"remotes","remotes","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.3.0",NA,"R (>= 3.0.0)","methods, stats, tools, utils",NA,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, webfakes, withr",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"repr","repr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.3",NA,"R (>= 3.0.1)","utils, grDevices, htmltools, jsonlite, pillar (>= 1.4.0),
+base64enc",NA,"methods, highr, Cairo, stringr, testthat (>= 3.0.0), leaflet","data.table, tibble, htmlwidgets, vegalite, plotly, geojsonio","GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"reprex","reprex","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.0",NA,"R (>= 3.3)","callr (>= 3.6.0), cli (>= 2.3.1), clipr (>= 0.4.0), fs, glue,
+knitr (>= 1.23), rlang (>= 0.4.0), rmarkdown, rstudioapi,
+utils, withr (>= 2.3.0)",NA,"covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny,
+spelling, styler (>= 1.2.0), testthat (>= 3.0.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"reshape2","reshape2","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.4",NA,"R (>= 3.1)","plyr (>= 1.8.1), Rcpp, stringr","Rcpp","covr, lattice, testthat (>= 0.8.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"reticulate","reticulate","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.20",NA,"R (>= 3.0)","Matrix, Rcpp (>= 0.12.7), graphics, jsonlite, methods, png,
+rappdirs, utils, withr","Rcpp","callr, knitr, rmarkdown, testthat",NA,"Apache License 2.0",NA,NA,NA,NA,"yes","4.0.5"
+"rhdf5","rhdf5","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.34.0",NA,"R (>= 3.5.0), methods","Rhdf5lib (>= 1.11.0), rhdf5filters","Rhdf5lib","bit64, BiocStyle, knitr, rmarkdown, testthat, microbenchmark,
+dplyr, ggplot2",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"rhdf5filters","rhdf5filters","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,NA,NA,"Rhdf5lib","BiocStyle, knitr, rmarkdown, testthat (>= 2.1.0)",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"Rhdf5lib","Rhdf5lib","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.12.1",NA,"R (>= 3.3.0)",NA,NA,"BiocStyle, knitr, rmarkdown, tinytest",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"rio","rio","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.5.26",NA,"R (>= 2.15.0)","tools, stats, utils, foreign, haven (>= 1.1.2), curl (>= 0.6),
+data.table (>= 1.9.8), readxl (>= 0.1.1), openxlsx, tibble",NA,"datasets, bit64, testthat, knitr, magrittr, arrow, clipr,
+feather, fst, hexView, jsonlite, pzfx, readODS (>= 1.6.4),
+readr, rmarkdown, rmatio, xml2 (>= 1.2.0), yaml",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.5"
+"rlang","rlang","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.11",NA,"R (>= 3.3.0)","utils",NA,"cli, covr, crayon, glue, magrittr, methods, pak, pillar,
+rmarkdown, testthat (>= 3.0.0), vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"rmarkdown","rmarkdown","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.8",NA,"R (>= 3.0)","tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=
+0.3.5), evaluate (>= 0.13), jsonlite, tinytex (>= 0.31), xfun
+(>= 0.21), methods, stringr (>= 1.2.0)",NA,"shiny (>= 1.6.0), tufte, testthat (>= 3.0.0), digest,
+dygraphs, vctrs, tibble, fs, rsconnect, withr (>= 2.4.2), bslib
+(>= 0.2.4), sass (>= 0.3.1)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"robustbase","robustbase","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.93-7",NA,"R (>= 3.1.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"ROCR","ROCR","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0-11",NA,"R (>= 3.6)","methods, graphics, grDevices, gplots, stats",NA,"testthat, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"rpart","rpart","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.1-15","recommended","R (>= 2.15.0), graphics, stats, grDevices",NA,NA,"survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"rprojroot","rprojroot","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.2",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"RSpectra","RSpectra","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.16-0",NA,"R (>= 3.0.2)","Matrix (>= 1.1-0), Rcpp (>= 0.11.5)","Rcpp, RcppEigen (>= 0.3.3.3.0)","knitr, rmarkdown, prettydoc",NA,"MPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"rstudioapi","rstudioapi","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.13",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rsvd","rsvd","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.5",NA,"R (>= 4.0.0)","Matrix",NA,"ggplot2, testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.5"
+"Rtsne","Rtsne","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.15",NA,NA,"Rcpp (>= 0.11.0), stats","Rcpp","irlba, testthat",NA,"file LICENSE","yes",NA,NA,NA,"yes","4.0.5"
+"rvest","rvest","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.0",NA,"R (>= 3.2)","httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>=
+0.4.10), selectr, tibble, xml2 (>= 1.3)",NA,"covr, glue, knitr, readr, rmarkdown, repurrrsive, spelling,
+stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"S4Vectors","S4Vectors","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.28.1",NA,"R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.36.0)",NA,NA,"IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"sandwich","sandwich","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.0-1",NA,"R (>= 3.0.0)","stats, utils, zoo",NA,"AER, car, geepack, lattice, lmtest, MASS, multiwayvcov,
+parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange,
+survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"sass","sass","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.0",NA,NA,"fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",NA,"testthat, knitr, rmarkdown, withr, shiny, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"scales","scales","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,"R (>= 3.2)","farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), testthat (>=
+2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"scater","scater","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.18.6",NA,"SingleCellExperiment, ggplot2","stats, utils, methods, grid, gridExtra, Matrix, BiocGenerics,
+S4Vectors, SummarizedExperiment, DelayedArray,
+DelayedMatrixStats, BiocNeighbors, BiocSingular, BiocParallel,
+scuttle, rlang, ggbeeswarm, viridis",NA,"BiocStyle, biomaRt, cowplot, destiny, knitr, scRNAseq,
+robustbase, rmarkdown, Rtsne, uwot, NMF, testthat, pheatmap,
+Biobase",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"scds","scds","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.0",NA,"R (>= 3.6.0)","Matrix, S4Vectors, SingleCellExperiment, SummarizedExperiment,
+xgboost, methods, stats, dplyr, pROC",NA,"BiocStyle, knitr, rsvd, Rtsne, scater, cowplot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"scran","scran","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.18.7",NA,"SingleCellExperiment","SummarizedExperiment, S4Vectors, BiocGenerics, BiocParallel,
+Rcpp, stats, methods, utils, Matrix, scuttle, edgeR, limma,
+BiocNeighbors, igraph, statmod, DelayedArray,
+DelayedMatrixStats, BiocSingular, bluster, dqrng, beachmat","Rcpp, beachmat, BH, dqrng, scuttle","testthat, BiocStyle, knitr, rmarkdown, HDF5Array, scRNAseq,
+dynamicTreeCut, DESeq2, monocle, Biobase, pheatmap, scater",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"sctransform","sctransform","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.2",NA,"R (>= 3.1.0)","MASS, Matrix, methods, future.apply, future, ggplot2,
+reshape2, gridExtra, matrixStats","RcppArmadillo, Rcpp (>= 0.11.0)","irlba, testthat, knitr","glmGamPoi","GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"scuttle","scuttle","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.0.4",NA,"SingleCellExperiment","methods, utils, stats, Matrix, Rcpp, BiocGenerics, S4Vectors,
+BiocParallel, GenomicRanges, SummarizedExperiment,
+DelayedArray, DelayedMatrixStats, beachmat","Rcpp, beachmat","BiocStyle, knitr, scRNAseq, rmarkdown, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"selectr","selectr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4-2",NA,"R (>= 3.0)","methods, stringr, R6",NA,"testthat, XML, xml2",NA,"BSD_3_clause + file LICENCE",NA,NA,NA,NA,"no","4.0.0"
+"Seurat","Seurat","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.2.0",NA,"R (>= 3.4.0), methods,","ape, cluster, cowplot, fitdistrplus, future, future.apply,
+ggplot2 (>= 3.0.0), ggrepel, ggridges, graphics, grDevices,
+grid, httr, ica, igraph, irlba, jsonlite, KernSmooth, leiden
+(>= 0.3.1), lmtest, MASS, Matrix (>= 1.2-14), miniUI,
+patchwork, pbapply, plotly (>= 4.9.0), png, RANN, RColorBrewer,
+Rcpp, RcppAnnoy, reticulate, rlang, ROCR, rsvd, Rtsne, scales,
+sctransform (>= 0.2.0), shiny, spatstat, stats, tibble, tools,
+utils, uwot (>= 0.1.5)","Rcpp (>= 0.11.0), RcppEigen, RcppProgress","loomR, testthat, hdf5r, S4Vectors, SummarizedExperiment,
+SingleCellExperiment, MAST, DESeq2, BiocGenerics,
+GenomicRanges, GenomeInfoDb, IRanges, rtracklayer, Rfast2,
+monocle, Biobase, VGAM, limma, metap",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"shape","shape","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.6",NA,"R (>= 2.01)","stats, graphics, grDevices",NA,NA,NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.5"
+"shiny","shiny","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.0",NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, digest (>= 0.6.25), htmltools (>=
+0.5.0.9001), R6 (>= 2.0), sourcetools, later (>= 1.0.0),
+promises (>= 1.1.0), tools, crayon, rlang (>= 0.4.9), fastmap
+(>= 1.0.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib
+(>= 0.2.2.9002), cachem, ellipsis, lifecycle (>= 0.2.0)",NA,"datasets, Cairo (>= 1.5-5), testthat (>= 2.1.1), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, shinytest (>= 1.4.0.9003), yaml, future, dygraphs,
+ragg, showtext, sass",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"SingleCellExperiment","SingleCellExperiment","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.12.0",NA,"SummarizedExperiment","methods, utils, stats, S4Vectors, BiocGenerics",NA,"testthat, BiocStyle, knitr, rmarkdown, Matrix, scRNAseq,
+Rtsne",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"sitmo","sitmo","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0.1",NA,"R (>= 3.2.0)","Rcpp (>= 0.12.13)","Rcpp","knitr, rmarkdown, ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"snow","snow","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4-3",NA,"R (>= 2.13.1), utils",NA,NA,"Rmpi,rlecuyer,nws",NA,"GPL",NA,NA,NA,NA,"no","4.0.5"
+"sourcetools","sourcetools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.7",NA,"R (>= 3.0.2)",NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"sp","sp","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4-5",NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"SparseM","SparseM","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.81",NA,"R (>= 2.15), methods","graphics, stats, utils",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"sparseMatrixStats","sparseMatrixStats","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,"MatrixGenerics","Rcpp, Matrix, matrixStats, methods","Rcpp","testthat (>= 2.1.0), knitr, bench, rmarkdown, BiocStyle",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"spatial","spatial","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","7.3-14","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"spatstat","spatstat","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.64-1",NA,"R (>= 3.3.0), spatstat.data (>= 1.4-2), stats, graphics,
+grDevices, utils, methods, nlme, rpart","spatstat.utils (>= 1.17-0), mgcv, Matrix, deldir (>= 0.0-21),
+abind, tensor, polyclip (>= 1.10-0), goftest (>= 1.2-2)",NA,"sm, maptools (>= 0.9-9), gsl, locfit, spatial, RandomFields
+(>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>=
+0.9-8)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"spatstat.core","spatstat.core","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1-2",NA,"R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.0-0), stats, graphics, grDevices, utils, methods, nlme, rpart","spatstat.utils (>= 2.1-0), spatstat.sparse (>= 2.0-0), mgcv,
+Matrix, abind, tensor, goftest (>= 1.2-2)",NA,"sm, maptools (>= 0.9-9), gsl, locfit, spatial, RandomFields
+(>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>=
+0.9-8), spatstat.linnet (>= 2.0-0), spatstat (>= 2.0-0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"spatstat.data","spatstat.data","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1-0",NA,"R (>= 3.5.0)","spatstat.utils (>= 2.1-0), Matrix",NA,"spatstat.geom, spatstat.core, spatstat.linnet",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"spatstat.geom","spatstat.geom","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1-0",NA,"R (>= 3.5.0), spatstat.data (>= 2.0), stats, graphics,
+grDevices, utils, methods","spatstat.utils (>= 2.1-0), deldir (>= 0.0-21), polyclip (>=
+1.10-0)",NA,"spatstat.core, spatstat.linnet, maptools (>= 0.9-9), spatial,
+fftwtools (>= 0.9-8), spatstat (>= 2.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"spatstat.linnet","spatstat.linnet","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1-1",NA,"R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.0-0), spatstat.core (>= 2.0-0), stats, graphics, grDevices,
+methods, utils","spatstat.utils (>= 2.1-0), Matrix",NA,"goftest, locfit, spatstat (>= 2.0-0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"spatstat.sparse","spatstat.sparse","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.0-0",NA,"R (>= 3.5.0), stats, utils, methods, Matrix, abind, tensor","spatstat.utils (>= 2.1-0)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"spatstat.utils","spatstat.utils","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.1-0",NA,"R (>= 3.3.0), stats, graphics, grDevices, utils, methods",NA,NA,"spatstat.core",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
+"splatter","splatter","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.14.1",NA,"R (>= 4.0), SingleCellExperiment","BiocGenerics, BiocParallel, checkmate (>= 2.0.0), edgeR,
+fitdistrplus, ggplot2, locfit, matrixStats, methods, scales,
+scater (>= 1.15.16), stats, SummarizedExperiment, utils,
+crayon, S4Vectors, grDevices",NA,"BiocStyle, covr, cowplot, magick, knitr, limSolve, lme4,
+progress, pscl, testthat, preprocessCore, rmarkdown, scDD,
+scran, mfa, phenopath, BASiCS (>= 1.7.10), zinbwave, SparseDC,
+BiocManager, spelling, igraph, scuttle, BiocSingular,
+VariantAnnotation, Biostrings, GenomeInfoDb, GenomicRanges,
+IRanges",NA,"GPL-3 + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"splines","splines","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"SQUAREM","SQUAREM","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2021.1",NA,"R (>= 3.0)",NA,NA,"setRNG",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"statmod","statmod","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.36",NA,"R (>= 3.0.0)","stats, graphics",NA,"MASS, tweedie",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.5"
+"stats","stats","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"stats4","stats4","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.0.5",NA,NA,NA,NA,NA,"4.0.5"
+"stringi","stringi","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.6.2",NA,"R (>= 3.1)","tools, utils, stats",NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.0.5"
+"stringr","stringr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.0",NA,"R (>= 3.1)","glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"SummarizedExperiment","SummarizedExperiment","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.20.0",NA,"R (>= 3.2), methods, MatrixGenerics (>= 1.1.3), GenomicRanges
+(>= 1.41.5), Biobase","utils, stats, tools, Matrix, BiocGenerics (>= 0.15.3),
+S4Vectors (>= 0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.13.1), DelayedArray (>= 0.15.10)",NA,"HDF5Array (>= 1.7.5), annotate, AnnotationDbi, hgu95av2.db,
+GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene, jsonlite,
+rhdf5, airway, BiocStyle, knitr, rmarkdown, RUnit, testthat,
+digest",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.5"
+"survival","survival","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.2-11","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"sys","sys","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.4",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.2"
+"tcltk","tcltk","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,"utils",NA,NA,NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"tensor","tensor","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.5",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,NA,"4.0.5"
+"testthat","testthat","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.0.2",NA,"R (>= 3.1)","brio, callr (>= 3.5.1), cli (>= 2.2.0), crayon (>= 1.3.4),
+desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite,
+lifecycle, magrittr, methods, pkgload, praise, processx, ps (>=
+1.3.4), R6 (>= 2.2.0), rlang (>= 0.4.9), utils, waldo (>=
+0.2.4), withr (>= 2.3.0)",NA,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tibble","tibble","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3.1.2",NA,"R (>= 3.1.0)","ellipsis (>= 0.3.2), fansi (>= 0.4.0), lifecycle (>= 0.2.0),
+magrittr, methods, pillar (>= 1.6.0), pkgconfig, rlang (>=
+0.4.3), utils, vctrs (>= 0.3.8)",NA,"bench, bit64, blob, cli, covr, crayon (>= 1.3.4), DiagrammeR,
+dplyr, evaluate, formattable, ggplot2, hms, htmltools, knitr,
+lubridate, mockr, nycflights13, purrr, rmarkdown, testthat (>=
+3.0.2), tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"tidyr","tidyr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.3",NA,"R (>= 3.1)","dplyr (>= 0.8.2), ellipsis (>= 0.1.0), glue, lifecycle,
+magrittr, purrr, rlang, tibble (>= 2.1.1), tidyselect (>=
+1.1.0), utils, vctrs (>= 0.3.6)","cpp11 (>= 0.2.6)","covr, data.table, jsonlite, knitr, readr, repurrrsive (>=
+1.0.0), rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tidyselect","tidyselect","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.1.1",NA,"R (>= 3.2)","ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 0.4.6),
+vctrs (>= 0.3.0)",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>=
+2.3.0), tibble (>= 2.1.3), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tidyverse","tidyverse","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3.1",NA,"R (>= 3.3)","broom (>= 0.7.6), cli (>= 2.4.0), crayon (>= 1.4.1), dbplyr
+(>= 2.1.1), dplyr (>= 1.0.5), dtplyr (>= 1.1.0), forcats (>=
+0.5.1), googledrive (>= 1.0.1), googlesheets4 (>= 0.3.0),
+ggplot2 (>= 3.3.3), haven (>= 2.3.1), hms (>= 1.0.0), httr (>=
+1.4.2), jsonlite (>= 1.7.2), lubridate (>= 1.7.10), magrittr
+(>= 2.0.1), modelr (>= 0.1.8), pillar (>= 1.6.0), purrr (>=
+0.3.4), readr (>= 1.4.0), readxl (>= 1.3.1), reprex (>= 2.0.0),
+rlang (>= 0.4.10), rstudioapi (>= 0.13), rvest (>= 1.0.0),
+stringr (>= 1.4.0), tibble (>= 3.1.0), tidyr (>= 1.1.3), xml2
+(>= 1.3.2)",NA,"covr, feather, glue, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"timeDate","timeDate","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","3043.102",NA,"R (>= 2.15.1), graphics, utils, stats, methods",NA,NA,"date, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.0"
+"tinytex","tinytex","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.31",NA,NA,"xfun (>= 0.19)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tools","tools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"triebeard","triebeard","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.0",NA,NA,"Rcpp","Rcpp","knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"TTR","TTR","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.24.2",NA,NA,"xts (>= 0.10-0), zoo, curl","xts","RUnit","quantmod","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.2"
+"urltools","urltools","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.7.3",NA,"R (>= 2.10)","Rcpp, methods, triebeard","Rcpp","testthat, knitr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"utf8","utf8","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.2.1",NA,"R (>= 2.10)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0)",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"utils","utils","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","4.0.5","base",NA,NA,NA,"methods, xml2, commonmark",NA,"Part of R 4.0.5",NA,NA,NA,NA,"yes","4.0.5"
+"uuid","uuid","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1-4",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"uwot","uwot","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.10",NA,"Matrix","Rcpp, methods, FNN, RSpectra, RcppAnnoy (>= 0.0.17), irlba","Rcpp, RcppProgress, RcppAnnoy, dqrng","testthat, covr",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.5"
+"vctrs","vctrs","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.3.8",NA,"R (>= 3.3)","ellipsis (>= 0.2.0), glue, rlang (>= 0.4.10)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown, rmarkdown, testthat (>= 2.3.0),
+tibble, withr, xml2, waldo (>= 0.2.0), zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"vegan","vegan","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.5-7",NA,"permute (>= 0.9-0), lattice, R (>= 3.4.0)","MASS, cluster, mgcv",NA,"parallel, tcltk, knitr, markdown",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.5"
+"vipor","vipor","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.5",NA,"R (>= 3.0.0)","stats, graphics",NA,"testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm,",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.5"
+"viridis","viridis","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.6.1",NA,"R (>= 2.10), viridisLite (>= 0.4.0)","stats, ggplot2 (>= 1.0.1), gridExtra",NA,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, rasterVis, httr, mapproj, vdiffr, svglite (>=
+1.2.0), testthat, covr, rmarkdown, rgdal",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"viridisLite","viridisLite","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.4.0",NA,"R (>= 2.10)",NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"waldo","waldo","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.2.5",NA,NA,"cli, diffobj, fansi, glue, methods, rematch2, rlang (>=
+0.4.10), tibble",NA,"testthat (>= 3.0.0), covr, R6",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"withr","withr","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.4.2",NA,"R (>= 3.2.0)","graphics, grDevices, stats",NA,"covr, DBI, knitr, lattice, methods, rmarkdown, RSQLite,
+testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"xfun","xfun","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.23",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown, knitr, htmltools, remotes, pak, renv, curl,
+jsonlite, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"xgboost","xgboost","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.4.1.1",NA,"R (>= 3.3.0)","Matrix (>= 1.1-0), methods, data.table (>= 1.9.6), magrittr
+(>= 1.5), jsonlite (>= 1.0),",NA,"knitr, rmarkdown, ggplot2 (>= 1.0.1), DiagrammeR (>= 0.9.0),
+Ckmeans.1d.dp (>= 3.3.1), vcd (>= 1.3), testthat, lintr, igraph
+(>= 1.0.1), float, crayon, titanic",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"xml2","xml2","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.3.2",NA,"R (>= 3.1.0)","methods",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.0"
+"xtable","xtable","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8-4",NA,"R (>= 2.10.0)","stats, utils",NA,"knitr, plm, zoo, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.0"
+"xts","xts","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.12.1",NA,"zoo (>= 1.7-12)","methods","zoo","timeSeries, timeDate, tseries, chron, fts, tis, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.2"
+"XVector","XVector","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.30.0",NA,"R (>= 2.8.0), methods, BiocGenerics (>= 0.19.2), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9)","methods, utils, tools, zlibbioc, BiocGenerics, S4Vectors,
+IRanges","S4Vectors, IRanges","Biostrings, drosophila2probe, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.5"
+"yaml","yaml","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.2.1",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"zeallot","zeallot","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","0.1.0",NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"zip","zip","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","2.2.0",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"zlibbioc","zlibbioc","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.36.0",NA,NA,NA,NA,NA,NA,"Artistic-2.0 + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
+"zoo","zoo","/projects/pfenninggroup/machineLearningForComputationalBiology/SingleCell/lib/anaconda3/envs/neuron/lib/R/library","1.8-9",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, fts, ggplot2 (>= 3.0.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
