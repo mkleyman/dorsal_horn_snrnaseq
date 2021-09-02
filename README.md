@@ -22,7 +22,7 @@ The analysis was composed of the following steps and can be viewed in the analys
 | Computational Step   | Associated Notebook  |
 | ------------- | -----:|
 | Empty Droplet Removal    | [qc_analysis.ipynb](qc_analysis.ipynb) |
-| Doublet Removal    | [[qc_analysis.ipynb](qc_analysis.ipynb)   |   
+| Doublet Removal    | [qc_analysis.ipynb](qc_analysis.ipynb)   |   
 | Preclustering  |   [preclustering.ipynb](preclustering.ipynb) |
 | Normalization | [normalization.ipynb](normalization.ipynb) |
 |Biological Replicate Integration | [integration_analysis.ipynb](integration_analysis.ipynb)   |
