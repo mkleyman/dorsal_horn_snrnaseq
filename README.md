@@ -12,8 +12,8 @@ manuscript. This github details the analysis performed on single nucleus RNA-seq
 
 The rest of the requirements can be found below:
 
-*python : conda_env.yml
-*R: R_installed_packages.csv
+* python : conda_env.yml
+* R: R_installed_packages.csv
 
 ## Computational Workflow
 
