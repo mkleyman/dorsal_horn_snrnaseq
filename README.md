@@ -1,4 +1,4 @@
-#dorsal_horn_snrnaseq_analysis
+##Macaque Dorsal Horn SnRNAseq Analysis
 
 The code and jupyter notebooks to go along with the manuscript: Comparison of the Cellular and Molecular Atlases of the Macaque and Mouse Dorsal Horns 
 manuscript. This github details the analysis performed on single nucleus RNA-seq data sampled from the Rhesus macaque dorsal. The resulting analysis yielded precise gene markers for all neural cell types in the macaque dorsal horn and a comparison of the expression patterns with their homologous mouse cell types. You can follow along the analysis with the Jupyter notebooks below. 
